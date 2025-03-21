@@ -1,6 +1,7 @@
 import React from "react";
 import logoImage from "../assets/Logo.svg";
 import "../styles/LittleLemon.css";
+import { Link } from "react-router-dom";
 
 export const Nav = () => {
 	return (
@@ -10,22 +11,22 @@ export const Nav = () => {
 			</div>
 			<ul>
 				<li>
-					<a href="#home">Home</a>
+					<Link to="/">Home</Link>
 				</li>
 				<li>
-					<a href="#about">About</a>
+					<Link to="/about">About</Link>
 				</li>
 				<li>
-					<a href="#menu">Menu</a>
+					<Link to="/menu">Menu</Link>
 				</li>
 				<li>
-					<a href="#reservation">Reservation</a>
+					<Link to="/reservation">Reservation</Link>
 				</li>
 				<li>
-					<a href="#order-online">Order Online</a>
+					<Link to="/order-online">Order Online</Link>
 				</li>
 				<li>
-					<a href="#login">Login</a>
+					<Link to="/login">Login</Link>
 				</li>
 			</ul>
 		</nav>

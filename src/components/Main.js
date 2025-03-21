@@ -1,10 +1,9 @@
-// import React, { useReducer } from "react";
 import "../styles/LittleLemon.css";
 import food from "../assets/restauranfood.jpg";
 import greeksalad from "../assets/greek salad.jpg";
 import bruchetta from "../assets/bruchetta.svg";
 import lemonDessert from "../assets/lemon dessert.jpg";
-import { Footer } from "./Footer";
+import Footer from "./Footer";
 
 export const Main = () => {
 	return (
