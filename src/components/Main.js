@@ -4,6 +4,7 @@ import greeksalad from "../assets/greek salad.jpg";
 import bruchetta from "../assets/bruchetta.svg";
 import lemonDessert from "../assets/lemon dessert.jpg";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 export const Main = () => {
 	return (
@@ -20,7 +21,7 @@ export const Main = () => {
 						twist.
 					</p>
 
-					<button type="button">Reserve a Table</button>
+					<Link to="/booking"><button type="button">Reserve a Table</button></Link>
 				</article>
 				<figure className="main-image">
 					<img src={food} alt="Restaurant food" />

@@ -24,7 +24,7 @@ export const Footer = () => {
 							<li>Home</li>
 							<li>About</li>
 							<li>Menu</li>
-							<li>Reservation</li>
+							<li>Booking</li>
 							<li>Order Online</li>
 						</ul>
 					</nav>

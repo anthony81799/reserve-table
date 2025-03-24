@@ -20,7 +20,7 @@ export const Nav = () => {
 					<Link to="/menu">Menu</Link>
 				</li>
 				<li>
-					<Link to="/reservation">Reservation</Link>
+					<Link to="/booking">Booking</Link>
 				</li>
 				<li>
 					<Link to="/order-online">Order Online</Link>
