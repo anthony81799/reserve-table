@@ -19,7 +19,7 @@ export const BookingForm = (props) => {
 	};
 
 	return (
-		<form style={{display: "grid", maxWidth: "200px", gap: "20px"}} onSubmit={handleSumbit}>
+		<form style={{display: "grid", maxWidth: "200px", gap: "20px"}} onSubmit={handleSumbit} id="booking-form">
 			<label htmlFor="res-date">Choose date</label>
 			<input
 				id="res-date"
@@ -69,6 +69,7 @@ export const BookingForm = (props) => {
 				aria-label="On Click"
 				type={"submit"}
 				value={"Make Your Reservation"}
+        id="submitButton"
 			/>
 		</form>
 	);

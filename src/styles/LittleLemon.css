@@ -53,6 +53,48 @@ a {
   color: white;
 }
 
+#booking-form,
+#booking-form label,
+#booking-form input,
+#booking-form select {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+#submitButton {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  width: 257px;
+  height: 63px;
+  color: black;
+  font-size: 25px;
+  font-family: 'Karla', sans-serif;
+  background-color: #FFD700;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+#confirmed-booking {
+  text-align: center;
+}
+
 .main-content p {
   font-size: 20px;
   font-family: 'Markazi Text', sans-serif;
@@ -173,57 +215,12 @@ a {
   border-top-right-radius: 15px;
 }
 
-/* TESTIMONIAL */
-
-.testimonials-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  background-color: #495E57;
-  padding: 20px;
-}
-
-.testimonials-section h2 {
-  font-size: 64px;
-  font-family: 'Markazi Text', sans-serif;
-  font-weight: bold;
-  text-align: center;
-  color: #ffffff;
-  margin: 0;
-  grid-column: 1 / -1;
-}
-
-.testimonial-card {
-  background-color: #EDEFEE;
-  margin-left: 184px;
-  border-radius: 15px;
-  padding: 15px;
-  width: 300px;
-  text-align: center;
-}
-
-.testimonial-card img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin: 0 auto 20px;
-}
-
-.card-content {
-  text-align: center;
-}
-
 .ratings {
   margin-top: 10px;
 }
 
 .ratings span {
   color: gold;
-}
-
-.user-name {
-  margin-top: 10px;
-  font-weight: bold;
 }
 
 /*ABOUT*/
@@ -353,4 +350,28 @@ footer {
   margin-right: 10px;
   filter: invert(100%);
   /* Make the icons white */
+}
+
+label,
+input,
+select,
+textarea,
+p {
+  font-family: "Karla";
+}
+
+input,
+select,
+option,
+textarea {
+  background-color: #eeeeee;
+  border: none;
+  padding: 5px 5px 5px 5px;
+  border-radius: 0.2rem;
+  resize: none;
+}
+
+input,
+select {
+  width: 10rem;
 }
